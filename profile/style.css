@@ -1,0 +1,51 @@
+body{
+    background-color:lightgoldenrodyellow;
+}
+.card{
+    background-color:#ffffff;
+    
+}
+.top{
+    padding: 7px;
+    background-image: url('background.png');
+    color: #ffffff;
+}
+.nav {
+    background-color:lightpink;
+    display: flex;
+    justify-content:space-between;
+}
+.nav button{
+    background-color: none;
+    border: none;
+    color:black;
+    font-size: large;
+}
+.user{
+    background-color:rgba(255, 182, 193, 0.322);
+    display:flex;
+    gap: 10px;
+    color: black;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px rgba(205, 92, 139, 0.069) solid ;
+}
+.bottom{
+    background-color:darkgrey;
+    color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hireBtn button {
+    background-color: #0040ffec;
+    color: #ffffff;
+    border: none;
+    font-size: medium;
+    padding: 8px 15px;
+    border-radius: 5px;
+}

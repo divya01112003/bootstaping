@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document3</title>
+    <style>body{
+        background-color:lightgoldenrodyellow;
+    }
+    .card{
+        background-color:#ffffff;
+        width: 700px;
+        border-radius: 15px;
+        overflow: hidden;
+        
+    }
+    .top{
+        padding: 7px;
+        background-image: url('backimg.jpg');
+        color: #ffffff;
+    }
+    .nav {
+        
+        display: flex;
+        justify-content:space-between;
+    }
+    .nav button{
+        background-color: none;
+        border: none;
+        color:black;
+        font-size: large;
+    }
+    .user{
+        background-color:rgba(255, 182, 193, 0.322);
+        display:flex;
+        gap: 10px;
+        color: black;
+    }
+    .avatar{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 4px rgba(205, 92, 139, 0.069) solid ;
+    }
+    .bottom{
+    background-color:darkgrey;
+    color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hireBtn button {
+    background-color: #0040ffec;
+    color: #ffffff;
+    border: none;
+    font-size: medium;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+    </style>
+</head>
+<body>
+    <!--card-->
+    <div class="card">
+        <!--Top section-->
+        <div class="top">
+            <div class="nav">
+                <button>back</button>
+                <button>star</button>
+            </div>
+            <div class="user">
+                <img 
+                    class="avatar" 
+                    src="img.jpg" alt="Profile"/>
+                <div>
+                    <h2>Divya Kumari</h2>
+                    <p> I'm Developer ! </p>
+                    
+                </div>   
+            </div>
+        </div>      
+    
+    <!--middle section -->
+        <div> 
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet nulla quam pariatur accusantium. Laboriosam omnis distinctio saepe dolorum eveniet similique voluptate possimus, placeat repudiandae, iusto harum quas ducimus culpa veritatis.
+            </div>
+        
+            <a href="About.html">About</a>
+            <a href="Skills.html">Skills</a>
+
+        </div>
+
+        <!--bottom section -->
+            <div class="bottom">
+                <div>
+                    <p>Connect Me</p>
+                    <div>
+                        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                        <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+                    </div>
+                </div>
+    
+                <div class="hireBtn">
+                    <button>Hire Me</button>
+                </div>
+            </div>
+        </div>
+    
+    </body>
+    </html>
